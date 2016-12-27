@@ -1,0 +1,35 @@
+<form class="navbar-form navbar-left" role="search">
+ <div class="form-group">
+ <input type="text" class="form-control" placeholder="Search" [(ngModel)]="brojKreveta">
+ <input type="text" class="form-control" placeholder="Search" [(ngModel)]="brojKvadrata">
+ </div>
+</form>
+<div class="col-lg-12">
+<br/>Korisnici<br/> <br/>
+<div *ngFor="#sobe of sobe| SearchPipe:brojKreveta">
+Ime: {{sobe.name}}
+<br/>
+<span *ngIf="sobe.brojKreveta == '1'">
+Broj kreveta: 1
+</span>
+<span *ngIf="sobe.brojKreveta == '2'">
+Broj kreveta: 2
+</span>
+<span *ngIf="sobe.brojKreveta == '3'">
+Broj kreveta: 3
+</span><br/> <br/>
+</div>
+<div *ngFor="#sobe of sobe| SearchPipe:brojKvadrata">
+Ime: {{sobe.name}}
+<br/>
+<span *ngIf="sobe.brojKvadrata == '20'">
+Broj kvadrata: 20
+</span>
+<span *ngIf="sobe.brojKvadrata == '30'">
+Broj kvadrata: 30
+</span>
+<span *ngIf="sobe.brojKvadrata == '40'">
+Broj kvadrata: 40
+</span><br/> <br/>
+</div>
+</div>

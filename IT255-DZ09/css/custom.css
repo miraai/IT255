@@ -1,0 +1,272 @@
+body{
+	padding-top: 51px;
+
+}
+
+/* ng-cloak */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng.ng-cloak {
+    display: none;
+}
+ul{
+	list-style: none;
+}
+a{
+	color: #333;
+}
+a:hover{
+	cursor: pointer;
+}
+ul.simple-post-list .post-image {
+	float: left;
+	margin-right: 12px;
+}
+ul.simple-post-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.callout-box{
+	background-color: #546489;
+	color: #fff;
+	padding: 10px 20px;
+}
+.body-title{
+	border: 1px solid #e3e3e3;
+	border-left: 5px solid #234383;
+	padding: 0 20px 20px;
+}
+.featured-box{
+	border: 1px solid #e3e3e3;
+	border-top: 5px solid #234383;
+	padding: 0 20px 20px;
+}
+.breadcrumbs {
+position: relative;
+border-bottom: 1px solid #E5E5E5;
+background-color: #F5F5F5;
+}
+.breadcrumb{
+	margin-bottom: 0;
+}
+.cart-btn{
+	border-radius:0;
+}
+.navbar {
+	border-radius: 0;
+	
+/*background: #438EB9;
+color: #fff;border: 0;*/
+
+}
+/* Removed width:auto from navbar-collapse classs; */
+.navbar-collapse {
+border-top: 0;
+box-shadow: none;
+}
+.navbar .navbar-brand {
+/*color: #FFF;
+font-size: 24px;
+text-shadow: none;
+padding-bottom: 10px;*/
+}
+.form-group-addon{
+	padding-left: -20px;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    color: #FFF;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+#home {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: url(../images/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#about{
+	background: #b31217;
+}
+#booking {
+    background: #b31217;
+    color: white;
+    margin-top: 30px;
+}
+#about .row{
+	padding: 100px 30px;
+
+}
+#about h2{
+	color: #FFF;
+	margin-top: 0;
+    padding-top: 50px;
+}
+#about .description{
+	color: #FFF;
+	font-size: 16px;
+}
+#gallery h2{
+	color: #b31217;
+}
+#gallery .gallery-image{
+	margin-top: 25px;
+}
+
+#subscribe{
+  background-attachment: fixed !important;
+  background-image: url("assets/images/subscribe-bg.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: #b31217;
+  display: inline;
+  float: left;    
+  width: 100%;
+  padding-top: 50px;
+}
+
+.subscribe-overlay{
+  background-color: rgba(0,0,0,0.3); 
+  padding: 90px 0;
+  float: left;
+  width: 100%;
+}
+.subscribe-area{
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+
+.subscribe-area h2 {
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.subscrib-form {
+  margin: 0 auto;
+  width: 600px;
+  position: relative;
+}
+
+.subscrib-form input {
+  border: medium none;
+  border-radius:4px;
+  color: #444;
+  font-size: 18px;
+  height: 50px;
+  outline: medium none;
+  padding: 5px 105px 5px 10px;
+  width: 100%;
+}
+
+.subscribe-btn { 
+  border: medium none;
+  border-radius: 0 4px 4px 0;
+  color: #b31217;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  top: 0;
+  letter-spacing: 0.5px;
+  outline: medium none;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  width: 120px;
+}
+
+#feature{
+    background-color: #fff;
+    display: inline;
+    float: left;
+    padding: 70px 0;
+    width: 100%;
+}
+
+.title-area {
+  display: inline;
+  float: left;
+  padding: 0 150px;
+  text-align: center;
+  width: 100%;
+  color: #b31217;
+}
+
+.title-area .title {    
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.title-area .line {
+  background-color: #b31217;
+  display: inline-block;
+  height: 2px;
+  width: 60px;
+}
+
+.title-area p {
+  color: #b31217;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.feature-content {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.single-feature{
+    display: inline;
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.single-feature:hover .feature-icon{
+    color: #444;
+}
+
+.single-feature .feature-icon {
+  font-size: 35px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.feat-title{
+    font-weight: normal;
+    font-size: 20px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.single-feature:hover .feat-title{
+    color: #444;
+}
+
+.single-feature p {
+  color: #555;
+  font-size: 15px;
+}
